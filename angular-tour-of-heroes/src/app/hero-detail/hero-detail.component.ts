@@ -7,5 +7,7 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent {
+  // Use Input decorator to mark property
+  // as an input property
   @Input() hero?: Hero;
 }
